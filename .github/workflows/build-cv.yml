@@ -19,7 +19,7 @@ jobs:
 
       - name: Generate CV PDF
         run: |
-          pandoc cv.md -o cv.pdf --pdf-engine=xelatex --template=template/modern.tex
+          pandoc cv.md -o cv.pdf --pdf-engine=xelatex --template=templates/modern.tex
 
       - name: Commit and push PDF
         run: |
