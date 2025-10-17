@@ -57,8 +57,6 @@ jobs:
           echo "version=$VERSION" >> $GITHUB_OUTPUT
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add dist/cv.pdf
-          git commit -m "chore: Update CV [skip ci]" || echo "No changes to commit"
           git tag -a "$VERSION" -m "Release $VERSION"
           git push origin "$VERSION"
 
@@ -69,7 +67,7 @@ jobs:
           name: "CV Release ${{ steps.tagger.outputs.version }}"
           body: |
             🚀 CV updated.
-            Fecha: $(date +'%Y-%m-%d-%H%M%S')
+            Fecha: $(date +'%Y-%m-%d')
           files: dist/cv.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
