@@ -1,0 +1,31 @@
+name: Build CV PDF
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build-cv:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc and LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex
+
+      - name: Generate CV PDF
+        run: |
+          pandoc cv.md -o cv.pdf --pdf-engine=xelatex --template=template/modern.tex
+
+      - name: Commit and push PDF
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add cv.pdf
+          git commit -m "Auto-generate CV PDF"
+          git push
