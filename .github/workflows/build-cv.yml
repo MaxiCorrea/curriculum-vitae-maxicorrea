@@ -16,8 +16,6 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc texlive-xetex
-          sudo apt install ttf-mscorefonts-installer
-          sudo fc-cache -f
 
       - name: Generate CV PDF
         run: |
