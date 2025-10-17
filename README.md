@@ -1,7 +1,5 @@
 # Maximiliano Correa
 
-[![Version actual](https://img.shields.io/github/v/release/maxicorrea/curriculum-vitae-maxicorrea)](https://github.com/maxicorrea/curriculum-vitae-maxicorrea/releases/latest)
-
 📄 [Descargar CV PDF](https://github.com/maxicorrea/curriculum-vitae-maxicorrea/releases/latest/download/cv.pdf)
 
 Soy un desarrollador Senior especializado en Java y Spring Boot, integración de servicios médicos y desarrollo frontend con React.
