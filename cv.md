@@ -1,10 +1,18 @@
-# Maximiliano Correa
-
-**Software Developer | Java, Spring Boot, React**
-📍 Buenos Aires, Argentina
-📧 jmaxicorrea@gmail.com
-🔗 [github.com/maxicorrea](https://github.com/maxicorrea)
-🔗 [linkedin.com/in/maxicorrea](https://linkedin.com/in/maxicorrea)
-
 ---
+title: "Maximiliano Correa"
+subtitle: "Senior Software Developer | Java, Spring Boot, React"
+location: "Buenos Aires, Argentina"
+email: "maxicorreajobs@gmail.com"
+linkedin: "https://linkedin.com/in/maxicorrea"
+---
+
+# 💼 Experiencia Profesional
+
+### Consultora de Desarrollo de Software (2018 - Actualidad)
+- Diseño e implementación del core de una app de call center usando arquitectura limpia.  
+- Integración con servicios externos (Farma+).  
+- Stack: Java 8, Spring Boot, Informix, Docker, GitLab CI/CD.
+
+...
+
 

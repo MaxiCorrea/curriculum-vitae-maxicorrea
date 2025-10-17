@@ -1,16 +1,57 @@
-\documentclass[11pt]{article}
+\documentclass[11pt,a4paper]{article}
 \usepackage{fontspec}
-\setmainfont{Dejavu Sans}
+\setmainfont{Liberation Sans} % Fuente libre y parecida a Arial
 \usepackage{geometry}
 \geometry{margin=1in}
 \usepackage{xcolor}
-\definecolor{accent}{HTML}{2E86C1}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{graphicx}
+
+\definecolor{accent}{HTML}{0A66C2} % Azul LinkedIn
+\definecolor{textgray}{HTML}{333333}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=accent,
+  linkcolor=accent
+}
+
+\titleformat{\section}
+  {\large\bfseries\color{accent}}
+  {}{0pt}{}
+  [\vspace{-0.5em}\titlerule]
+
+\titleformat{\subsection}
+  {\bfseries\color{textgray}}
+  {}{0pt}{}
+
+\setlist[itemize]{leftmargin=*}
+
+\setlength{\parskip}{0.4em}
+\setlength{\parindent}{0pt}
+
+\newcommand{\makeheader}[5]{
+  \begin{center}
+    {\Huge \textbf{#1}}\\[4pt]
+    {\large \textcolor{textgray}{#2}}\\[6pt]
+    #3 \\ % ubicación
+    \href{mailto:#4}{#4} • \href{#5}{LinkedIn} • \href{https://github.com/#1}{GitHub}\\[1em]
+  \end{center}
+  \vspace{0.5em}
+  \hrule
+  \vspace{1em}
+}
 
 \begin{document}
-{\huge \textbf{$title$}}\\
-\vspace{0.5em}
-\textcolor{accent}{$author$}
 
-\vspace{1em}
+$if(title)$
+\makeheader{$title$}{$subtitle$}{$location$}{$email$}{$linkedin$}
+$endif$
+
+\color{textgray}
 $body$
+
 \end{document}
+
