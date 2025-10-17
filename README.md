@@ -1,9 +1,9 @@
-# 🧑‍💻 Maximiliano Correa — CV
+# Maximiliano Correa
 
-Versión actual: **v2025.1**  
-📄 [Descargar PDF](./cv.pdf)
+Version actual: **(https://github.com/maxicorrea/curriculum-vitae-maxicorrea/releases/latest)**
+📄 [Descargar CV PDF](https://github.com/maxicorrea/curriculum-vitae-maxicorrea/releases/latest/download/cv.pdf)
 
-Soy un desarrollador Senior especializado en Java y Spring Boot, con experiencia en arquitectura limpia, integración de servicios médicos y desarrollo frontend con React.
+Soy un desarrollador Senior especializado en Java y Spring Boot, integración de servicios médicos y desarrollo frontend con React.
 
 ---
 
@@ -12,5 +12,5 @@ Java | Spring Boot | React | Informix | Docker
 
 ---
 
-📧 jmaxicorrea@gmail.com  
+📧 maxicorreajobs@gmail.com  
 🌐 [LinkedIn](https://linkedin.com/in/maxicorrea) | [GitHub](https://github.com/maxicorrea)
