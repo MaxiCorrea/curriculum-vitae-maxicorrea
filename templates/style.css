@@ -1,29 +1,126 @@
-body {
-  font-family: "Open Sans", sans-serif;
-  margin: 40px;
-  line-height: 1.5;
-  color: #333;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1, h2, h3 {
-  color: #2c3e50;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f9fafb;
+  color: #222;
+  line-height: 1.6;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 h1 {
-  border-bottom: 2px solid #2c3e50;
-  padding-bottom: 5px;
+  font-size: 2.2rem;
+  color: #1e293b;
+  margin-bottom: 0.25rem;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
+h2, h3 {
+  color: #334155;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
 }
 
-td, th {
-  padding: 6px;
+h2 {
+  border-bottom: 2px solid #3b82f6;
+  display: inline-block;
+  padding-bottom: 0.2rem;
+}
+
+p, li {
+  margin-bottom: 0.6rem;
 }
 
 a {
-  color: #2c3e50;
+  color: #2563eb;
   text-decoration: none;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2::before {
+  margin-right: 0.4rem;
+}
+
+section#perfil {
+  background: #e0f2fe;
+  border-left: 4px solid #3b82f6;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.job {
+  margin-bottom: 1.5rem;
+}
+
+.job h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.job .details {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0.4rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 2rem 0;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p, li {
+    font-size: 0.95rem;
+  }
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.social-links a {
+  background: #e2e8f0;
+  color: #1e293b;
+  padding: 0.4rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.9rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-links a:hover {
+  background: #3b82f6;
+  color: white;
+}
+
