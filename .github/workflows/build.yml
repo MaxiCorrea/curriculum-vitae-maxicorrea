@@ -24,8 +24,8 @@ jobs:
       - name: Generate HTML & PDF
         run: |
           mkdir -p dist
-          pandoc src/cv.md -s -c templates/style.css -o dist/index.html
-          wkhtmltopdf dist/index.html dist/cv.pdf
+          pandoc src/cv.md -s -c templates/style.css -o dist/index.html --metadata title="Curriculum Vitae - Maximiliano Correa"
+          wkhtmltopdf --enable-local-file-access dist/index.html dist/cv.pdf
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
