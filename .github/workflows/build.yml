@@ -23,7 +23,8 @@ jobs:
 
       - name: Generate HTML & PDF
         run: |
-          mkdir -p dist
+          mkdir -p dist/templates
+          cp templates/style.css dist/templates/style.css
           pandoc src/cv.md -s -c templates/style.css -o dist/index.html --metadata title="Curriculum Vitae - Maximiliano Correa"
           wkhtmltopdf --enable-local-file-access dist/index.html dist/cv.pdf
 
