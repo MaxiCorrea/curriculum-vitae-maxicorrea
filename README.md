@@ -13,5 +13,5 @@ Este proyecto genera automáticamente un **CV en HTML y PDF** a partir de un arc
 
 ## 🌐 Resultado
 
-- CV en línea: `https://<tu-usuario>.github.io/cv-project/`
-- PDF descargable: `https://<tu-usuario>.github.io/cv-project/cv.pdf`
+- CV en línea: `https://maxicorrea.github.io/curriculum-vitae-maxicorrea/`
+- PDF descargable: `https://maxicorrea.github.io/curriculum-vitae-maxicorrea/cv.pdf`
