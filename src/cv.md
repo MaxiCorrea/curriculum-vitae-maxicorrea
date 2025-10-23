@@ -1,3 +1,11 @@
+---
+title: "Currículum Vitae - Maximiliano Correa | Senior Java Developer | Spring Boot Expert"
+description: "CV de Maximiliano Correa, Senior Java Developer con experiencia en Spring Boot, React, Informix y arquitectura de software. Disponible para oportunidades en Buenos Aires, Argentina."
+author: "Maximiliano Correa"
+keywords: "Senior Java Developer, Spring Boot, React, Informix, Vaadin, Backend, Frontend, Buenos Aires, Argentina"
+date: 2025-10-23
+---
+
 # Maximiliano Correa
 **Desarrollador de Software | Java - Spring Boot - React**  
 Consultora de Software (Subcontratado en Galeno) | 12/2018 - Actualidad  
