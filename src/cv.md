@@ -2,12 +2,8 @@
 **Desarrollador de Software | Java - Spring Boot - React**  
 Consultora de Software (Subcontratado en Galeno) | 12/2018 - Actualidad  
 
----
-
 ## Perfil Profesional
 Desarrollador de Software con más de 5 años de experiencia en **Java, Spring Boot, React, TypeScript y arquitectura hexagonal**. Experto en diseño y desarrollo de sistemas empresariales, integración con servicios externos, optimización de procesos backend, y creación de interfaces reutilizables con React y Material UI. Amplia experiencia en **bases de datos Informix, Docker, programación concurrente, pruebas unitarias y sistemas resilientes**.
-
----
 
 ## Experiencia Profesional
 
@@ -42,8 +38,6 @@ Desarrollador de Software con más de 5 años de experiencia en **Java, Spring B
 - Tecnologías usadas: **Spring Framework, JDBC con Informix, Vaadin**, generación de reportes Excel y gestión de planes de pago.
 - Responsable de mantenimiento, soporte y evolución en producción.
 
----
-
 ## Habilidades Técnicas
 - **Lenguajes:** Java, JavaScript, TypeScript  
 - **Frameworks:** Spring Boot, Vaadin, React v16, Redux, Material UI v4  
@@ -52,20 +46,15 @@ Desarrollador de Software con más de 5 años de experiencia en **Java, Spring B
 - **Arquitectura:** Hexagonal, Fullstack, UI Component System Design  
 - **Otras:** Programación concurrente, reintentos automáticos, @Scheduled, integración con APIs externas
 
----
-
 ## Certificaciones y Cursos
-- [Software Engineer Certificate](#)  
-- [SQL (Intermediate) Certificate](#)  
-- [Java (Basic) Certificate](#)  
-- [SQL (Basic) Certificate](#)  
-- [JavaScript Certificate](#)  
-- [Frontend Developer (React) Certificate](#)  
-- [Software Engineer Intern](#)  
-
----
+- [Software Engineer Certificate](https://www.hackerrank.com/certificates/790431f5f5c7)  
+- [SQL (Intermediate) Certificate](https://www.hackerrank.com/certificates/5b7633aa47b3)  
+- [Java (Basic) Certificate](https://www.hackerrank.com/certificates/e8d51431993b)  
+- [SQL (Basic) Certificate](https://www.hackerrank.com/certificates/d2438b9edbbf)  
+- [JavaScript Certificate](https://www.freecodecamp.org/certification/MaximilianoCorrea/javascript-algorithms-and-data-structures)  
+- [Frontend Developer (React) Certificate](https://www.hackerrank.com/certificates/b97a5d1c91e3)  
+- [Software Engineer Intern](https://www.hackerrank.com/certificates/cb744c10958b)  
 
 ## Contacto
-- [LinkedIn](#)  
-- [GitHub](#)  
-
+- [LinkedIn](https://www.linkedin.com/in/maxicorrea/)  
+- [GitHub](https://github.com/MaxiCorrea)  
