@@ -1,6 +1,6 @@
 # Maximiliano Correa
 
-**Software Developer | Java | Spring Boot | React **
+**Software Developer | Java | Spring Boot | React**
 
 📍 Buenos Aires, Argentina  
 📧 maxicorreajobs@example.com  
