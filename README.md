@@ -5,7 +5,7 @@ Este proyecto genera automáticamente un **CV en HTML y PDF** a partir de un arc
 ## 🚀 Cómo funciona
 
 1. Escribí tu CV en `src/cv.md`
-2. Subí tus cambios a la rama `main`
+2. Subí tus cambios a la rama `master`
 3. GitHub Actions genera:
    - `dist/index.html`
    - `dist/cv.pdf`
