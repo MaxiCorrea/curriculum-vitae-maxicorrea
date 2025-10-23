@@ -11,7 +11,7 @@ date: 2025-10-23
 **Senior Java Developer | Spring Boot | React | Arquitectura de Software**
 
 📍 Buenos Aires, Argentina  
-📧 [maxicorreajobs@gmail.com](mailto:maxicorreajobs@gmail.com)  
+📧 [maxicorreajobs@example.com](mailto:maxicorreajobs@example.com)  
 🌐 [LinkedIn](https://linkedin.com/in/maxicorrea)  
 🐙 [GitHub](https://github.com/maxicorrea)
 
@@ -39,7 +39,7 @@ Apasionado por **arquitectura de software escalable, buenas prácticas de progra
 
 | Backend | Frontend | Infraestructura / DevOps |
 |---------|----------|--------------------------|
-| Java 8, Spring Boot, Informix, Vaadin | React, TypeScript, HTML5, CSS3 | Docker, Tomcat, Linux |
+| Java 8, Spring Boot, Informix, Vaadin | React, TypeScript, HTML5, CSS3 | GitLab CI, Docker, Tomcat, Linux, Red Hat |
 
 ---
 
@@ -55,3 +55,17 @@ Apasionado por **arquitectura de software escalable, buenas prácticas de progra
 - Inglés (intermedio, en progreso)  
 
 ---
+
+## 📄 Descargar CV en PDF
+
+<a href="cv.pdf" download style="
+  display:inline-block;
+  padding:10px 20px;
+  background-color:#4CAF50;
+  color:white;
+  text-decoration:none;
+  border-radius:5px;
+  font-weight:bold;
+">
+  Descargar CV en PDF
+</a>
